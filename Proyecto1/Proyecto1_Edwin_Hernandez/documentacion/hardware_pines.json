@@ -1,0 +1,20 @@
+# agregar informacion del HW board y asignacion de pines
+{
+
+    "project": "banda transportadora",
+    "board": "ESP32 WROOM",
+    "perifericos": {[
+        {"componente":"motor puente H A",
+        "pin":12,
+        "tipo":"output analog"},
+        {"componente":"motor puente H B",
+        "pin":14,
+        "tipo":"output digital"},
+        {"componente":"sensor de velocidad",
+        {"componente":"microswitch de fin de carrera",
+        "pin":33,
+        "tipo":"input digital"},
+        {"componente":"sensor de temperatura",
+    ]
+    }
+}
